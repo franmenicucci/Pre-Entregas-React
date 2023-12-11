@@ -3,6 +3,7 @@
 .navbar {
     background-color: #343a40;
     color: #ffffff;
+    margin-bottom: 500px;
   }
 
 
@@ -38,6 +39,16 @@
     background-color: #555b61;
     border-radius: 5px;
   }
+
+
+  .sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   
+  }
+
+
   
   /* Add any additional styles as needed */
   

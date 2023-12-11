@@ -5,9 +5,9 @@ import { NavLink, Link } from 'react-router-dom';
 import "bulma/css/bulma.css"
 import './NavBar.css'
 
-const NavBar = () => {
+const NavBar = () => { 
   return(
-    <nav className='navbar' role='navigation' aria-label='main navigation'>
+    <nav className='navbar sticky' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand'>
         <Link to='/' className='navbar-item'>
           <h3>CoffeeShop <GiCoffeeBeans /></h3>

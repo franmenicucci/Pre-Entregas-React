@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+
+
+ .navbar-item {
+    font-size: 30px;
+ } 
+  
+  .navbar-brand h3 {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar-menu {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-start {
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active-link {
+    background-color: #555b61;
+    border-radius: 5px;
+  }
+  
+  /* Add any additional styles as needed */
+  

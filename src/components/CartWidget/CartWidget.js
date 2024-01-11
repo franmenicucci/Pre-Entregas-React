@@ -1,20 +1,26 @@
-import React from 'react';
-import { BiCart } from 'react-icons/bi';
+
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom';
+import { FaShoppingCart } from "react-icons/fa";
+import './CartWidget.css'
+
 
 
 const CartWidget = () => {
-  const cartIconStyle = {
-    fontSize: '3rem', 
-    position: 'fixed', 
-    top: '2px', 
-    right: '15px', 
-  };
+  const { totalQuantity } = useContext (CartContext)
 
   return (
-    <div style={cartIconStyle}>
-      <BiCart />
-    </div>
-  );
+    <Link to='/cart' className='CartWidget' style= {{ display: totalQuantity () > 0 ? 'block' : 'none'}}>
+      <FaShoppingCart className='cart-img'/>
+      {totalQuantity}
+    </Link>
+  )
+
 }
 
+
 export default CartWidget;
+
+
+

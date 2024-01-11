@@ -1,0 +1,63 @@
+/* CartItem.css */
+
+/* Estilos para el contenedor del ítem del carrito */
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 130px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.checkout-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    border: 1px #c0392b;
+}
+
+
+.description {
+ max-width: 30%;
+}
+
+.cart-item img {
+    max-height: 100px; /* Adjust the value as needed */
+    margin-right: 10px; /* Optional: Add some spacing between the image and other elements */
+}
+
+/* Estilos para el título del ítem */
+.cart-item h2 {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la cantidad y subtotal */
+.cart-item p {
+    margin: 5px 0;
+}
+
+/* Estilos para el botón de eliminar */
+.cart-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    max-width: 30%;
+    min-width: 130px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Cambiar color al botón al pasar el ratón por encima */
+.cart-item button:hover {
+    background-color: #c0392b;
+}
+
+.checkout-wrapper h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

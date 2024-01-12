@@ -33,7 +33,7 @@ const ItemDetailContainer = () => {
 
     return(
         <div className="ItemDetailContainer">
-             {loading && <ItemDetail {...product}/>}
+            <ItemDetail {...product}/>
         </div>
      )
 
